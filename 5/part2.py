@@ -1,5 +1,5 @@
 ranges = []
-with open('5/input2') as f:
+with open('5/input') as f:
     for line in f.readlines():
         if line.strip() == '':
             break
