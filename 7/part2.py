@@ -10,6 +10,5 @@ for line in splitters:
             count = beams.pop(splitter)
             beams[splitter + 1] = beams.get(splitter + 1, 0) + count
             beams[splitter - 1] = beams.get(splitter - 1, 0) + count
-            print(''.join([str(beams.get(i, 0)) for i in range(width)]))
 
 print(sum(beams.values()))
